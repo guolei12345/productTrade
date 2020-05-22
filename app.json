@@ -1,7 +1,11 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/publish/publish",
+    "pages/message/message",
+    "pages/mypage/mypage",
+    "pages/collect/collect"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -16,8 +20,20 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布货物"
+      },
+      {
+        "pagePath": "pages/collect/collect",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "我的"
       }
     ]
   },
