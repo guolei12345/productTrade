@@ -16,22 +16,32 @@
   "tabBar": {
     "list": [
       {
+        "iconPath": "images/i1.png",
+        "selectedIconPath":"images/i2.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
+        "iconPath": "images/m1.png",
+        "selectedIconPath":"images/m2.png",
         "pagePath": "pages/message/message",
         "text": "消息"
       },
       {
+        "iconPath": "images/p1.png",
+        "selectedIconPath":"images/p2.png",
         "pagePath": "pages/publish/publish",
         "text": "发布货物"
       },
       {
+        "iconPath": "images/s1.png",
+        "selectedIconPath":"images/s1.png",
         "pagePath": "pages/collect/collect",
         "text": "收藏"
       },
       {
+        "iconPath": "images/u1.png",
+        "selectedIconPath":"images/u2.png",
         "pagePath": "pages/mypage/mypage",
         "text": "我的"
       }

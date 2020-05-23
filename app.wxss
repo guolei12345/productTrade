@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import 'weui.wxss';
 .container {
   height: 100%;
   display: flex;
@@ -8,3 +9,40 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+/* 阿里的矢量图标  商用好像法律声明中有需要授权，避免纠纷 */
+/* 可以采用font awreasome 图标库，好像不涉及纠纷 */
+/* @font-face {
+  font-family: 'iconfont'; 
+  src: url('//at.alicdn.com/t/font_1837392_7x2f78rlb2a.eot');
+  src: url('//at.alicdn.com/t/font_1837392_7x2f78rlb2a.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1837392_7x2f78rlb2a.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1837392_7x2f78rlb2a.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1837392_7x2f78rlb2a.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1837392_7x2f78rlb2a.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconicon-test:before {
+  content: "\e657";
+}
+
+.iconicon-test1:before {
+  content: "\e658";
+}
+
+.iconicon-test2:before {
+  content: "\e659";
+}
+
+.iconicon-test3:before {
+  content: "\e65a";
+} */
+

@@ -1,56 +1,63 @@
-<!--index.wxml-->
-<!-- <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view> -->
-<view class="container">
-  <view class="page-body">
-    <view class="page-section page-section-spacing swiper">
-      <swiper indicator-dots="{{indicatorDots}}"
-        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{background}}" wx:key="*this">
-          <swiper-item>
-            <view class="swiper-item {{item}}"></view>
-          </swiper-item>
-        </block>
-      </swiper>
-    </view>
-    <!-- <view class="page-section" style="margin-top: 40rpx;margin-bottom: 0;">
-      <view class="weui-cells weui-cells_after-title">
-        <view class="weui-cell weui-cell_switch">
-          <view class="weui-cell__bd">指示点</view>
-          <view class="weui-cell__ft">
-            <switch checked="{{indicatorDots}}" bindchange="changeIndicatorDots" />
-          </view>
-        </view>
-        <view class="weui-cell weui-cell_switch">
-          <view class="weui-cell__bd">自动播放</view>
-          <view class="weui-cell__ft">
-            <switch checked="{{autoplay}}" bindchange="changeAutoplay" />
-          </view>
-        </view>
-      </view>
-    </view> -->
+<!-- 滑块视图 -->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <swiper-item>
+        <image src="/images/u2.png" mode="aspectFit"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="/images/p1.png" mode="aspectFit"></image>
+    </swiper-item>
+</swiper>
+<view class="weui-cell weui-cell_input">
+  <input class="weui-input" type="text" maxlength="10" id="searchinput"
+    placeholder="输入物品名"/> 
+  <label class="mySearch" bindtap="showInput">
+    <i class="weui-icon-search"></i>
+    <span class="weui-search-bar__text">搜索</span>
+  </label>
+</view>
 
-    <view class="page-section page-section-spacing">
-      <view class="page-section-title">
-        <text>幻灯片切换时长(ms)</text>
-        <text class="info">{{duration}}</text>
-      </view>
-      <slider bindchange="durationChange" value="{{duration}}" min="500" max="2000"/>
-      <view class="page-section-title">
-        <text>自动播放间隔时长(ms)</text>
-        <text class="info">{{interval}}</text>
-      </view>
-      <slider bindchange="intervalChange" value="{{interval}}" min="2000" max="10000"/>
-    </view>
+<view class="page" data-weui-theme="black">
+	<view class="weui-grids">
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="../../images/u2.png" alt></image>
+			</view>
+			<view class="weui-grid__label">A换B</view>
+      <view class="weui-grid__label">10￥</view>
+      <view class="weui-grid__label">价值参考：0.7</view>
+		</a>
+    <a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="../../images/u2.png" alt></image>
+			</view>
+			<view class="weui-grid__label">A换B</view>
+      <view class="weui-grid__label">10￥</view>
+      <view class="weui-grid__label">价值参考：0.7</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="../../images/u2.png" alt></image>
+			</view>
+			<view class="weui-grid__label">A换B</view>
+      <view class="weui-grid__label">10￥</view>
+      <view class="weui-grid__label">价值参考：0.7</view>
+		</a>
+    <a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="../../images/u2.png" alt></image>
+			</view>
+			<view class="weui-grid__label">A换B</view>
+      <view class="weui-grid__label">10￥</view>
+      <view class="weui-grid__label">价值参考：0.7</view>
+		</a>
   </view>
 </view>
+<view class="weui-footer">
+  <view class="weui-footer__links">
+    <a class="weui-footer__link">底部链接</a>
+  </view>
+  <view class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</view>
+</view>
+
+
