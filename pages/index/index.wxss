@@ -20,7 +20,7 @@ image{
 
 .weui-grid{
   width: 48%;
-  background:rgb(231, 221, 203);
+  background:rgb(233, 230, 226);
   padding: 5px;
   margin-right: 1%;
   margin-bottom: 1px;

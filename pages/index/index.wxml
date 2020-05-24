@@ -1,23 +1,22 @@
-<!-- 滑块视图 -->
-<swiper indicator-dots="{{indicatorDots}}"
-  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <swiper-item>
-        <image src="/images/bnnner1.jpg"></image>
-    </swiper-item>
-    <swiper-item>
-        <image src="/images/bnnner1.jpg"></image>
-    </swiper-item>
-</swiper>
-<view class="weui-cell weui-cell_input">
-  <input class="weui-input" type="text" maxlength="10" id="searchinput"
-    placeholder="输入物品名"/> 
-  <label class="mySearch" bindtap="showInput">
-    <i class="weui-icon-search"></i>
-    <span class="weui-search-bar__text">搜索</span>
-  </label>
-</view>
-
-<view class="page" data-weui-theme="black">
+<view class="page" data-weui-theme="lignt">
+  <!-- 滑块视图 -->
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <swiper-item>
+          <image src="/images/bnnner1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+          <image src="/images/bnnner1.jpg"></image>
+      </swiper-item>
+  </swiper>
+  <view class="weui-cell weui-cell_input">
+    <input class="weui-input" type="text" maxlength="10" id="searchinput"
+      placeholder="输入物品名"/> 
+    <label class="mySearch" bindtap="showInput">
+      <i class="weui-icon-search"></i>
+      <span class="weui-search-bar__text">搜索</span>
+    </label>
+  </view>
 	<view class="weui-grids">
 		<a class="weui-grid">
 			<view class="weui-grid__icon">
@@ -52,12 +51,10 @@
       <view class="weui-grid__label">价值参考：0.7</view>
 		</a>
   </view>
-</view>
-<view class="weui-footer">
-  <view class="weui-footer__links">
-    <a class="weui-footer__link">底部链接</a>
+  <view class="weui-footer">
+    <view class="weui-footer__links">
+      <a class="weui-footer__link">底部链接</a>
+    </view>
+    <view class="weui-footer__text">联系方式; 郭磊 13436675555</view>
   </view>
-  <view class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</view>
 </view>
-
-

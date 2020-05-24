@@ -8,7 +8,7 @@ Page({
     indicatorDots: true,
     vertical: true,
     autoplay: true,
-    interval: 2000,
+    interval: 10000,
     duration: 500
   },
   onLoad: function (options) {
