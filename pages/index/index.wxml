@@ -2,10 +2,10 @@
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <swiper-item>
-        <image src="/images/u2.png" mode="aspectFit"></image>
+        <image src="/images/bnnner1.jpg"></image>
     </swiper-item>
     <swiper-item>
-        <image src="/images/p1.png" mode="aspectFit"></image>
+        <image src="/images/bnnner1.jpg"></image>
     </swiper-item>
 </swiper>
 <view class="weui-cell weui-cell_input">
@@ -21,34 +21,34 @@
 	<view class="weui-grids">
 		<a class="weui-grid">
 			<view class="weui-grid__icon">
-				<image src="../../images/u2.png" alt></image>
+				<image src="../../images/tupian.jpg" alt></image>
 			</view>
-			<view class="weui-grid__label">A换B</view>
-      <view class="weui-grid__label">10￥</view>
+			<view class="weui-grid__label">A换BBBBBBBBBBBBBBBBBBBBBB</view>
+      <view class="weui-grid__label">10￥ 价值参考：0.7</view>
       <view class="weui-grid__label">价值参考：0.7</view>
 		</a>
     <a class="weui-grid">
 			<view class="weui-grid__icon">
-				<image src="../../images/u2.png" alt></image>
+				<image src="../../images/tupian.jpg" alt></image>
 			</view>
-			<view class="weui-grid__label">A换B</view>
-      <view class="weui-grid__label">10￥</view>
+			<view class="weui-grid__label">inphone4换inphone5</view>
+      <view class="weui-grid__label">10000￥ 价值参考：0.7</view>
       <view class="weui-grid__label">价值参考：0.7</view>
 		</a>
 		<a class="weui-grid">
 			<view class="weui-grid__icon">
-				<image src="../../images/u2.png" alt></image>
+				<image src="../../images/tupian.jpg" alt></image>
 			</view>
 			<view class="weui-grid__label">A换B</view>
-      <view class="weui-grid__label">10￥</view>
+      <view class="weui-grid__label">10￥ 价值参考：0.7</view>
       <view class="weui-grid__label">价值参考：0.7</view>
 		</a>
     <a class="weui-grid">
 			<view class="weui-grid__icon">
-				<image src="../../images/u2.png" alt></image>
+				<image src="../../images/tupian.jpg" alt></image>
 			</view>
 			<view class="weui-grid__label">A换B</view>
-      <view class="weui-grid__label">10￥</view>
+      <view class="weui-grid__label">10￥ 价值参考：0.7</view>
       <view class="weui-grid__label">价值参考：0.7</view>
 		</a>
   </view>
